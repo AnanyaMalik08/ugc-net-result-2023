@@ -1,0 +1,5 @@
+<?php
+// Connect to your database
+// Retrieve the result for the given application number and date of birth
+// Display the result in a user-friendly format
+?>

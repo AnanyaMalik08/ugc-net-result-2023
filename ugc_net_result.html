@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UGC NET Result 2023</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="UGC NET Logo">
+            <h1>National Testing Agency (NTA)</h1>
+            <h2>UGC NET December - 2021 & June - 2022 (merged cycles)</h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="result-form">
+                <h3>View Result</h3>
+                <form action="process-result.php" method="post">
+                    <div class="input-group">
+                        <label for="application-number">Application Number:</label>
+                        <input type="text" id="application-number" name="application_number" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="date-of-birth">Date of Birth:</label>
+                        <input type="date" id="date-of-birth" name="date_of_birth" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="security-pin">Security Pin (case sensitive):</label>
+                        <input type="text" id="security-pin" name="security_pin" required>
+                    </div>
+                    <button type="submit">Get Result</button>
+                </form>
+            </section>
+
+            <section id="result-display" style="display: none;">
+                <h2>Your Result</h2>
+                </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 UGC NET</p>
+            <p>Disclaimer: This site is designed and hosted by NIC eCounselling Division. The contents are provided by NTA. For any further information, please contact NTA. (Ver 1.0.134.8.0)</p>
+        </div>
+    </footer>
+</body>
+</html>
